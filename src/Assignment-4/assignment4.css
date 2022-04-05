@@ -1,7 +1,100 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+.container,.content {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("\nag-ass\src\Assignment-4\images\mid-pic-2.jpg");
+}
+header {
+  background: #92E0E5;
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+header img {
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+header nav {
+  float: right;
+}
+nav li  {
+  display:inline-block;
+  padding:10px;
+}
+nav li a{
+  color:white;
+}
+#hero{
+background: url('./images/background.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+#hero h2{
+  font-size:30px;
+  margin-bottom:15px;
+}
+#hero img.middle{
+  display: block;
+  border-radius: 50%;
+  border: 5px solid #3F8DA7;
+  margin:auto;
+  margin-bottom:50px;
+}
+#hero a{
+  background: white;
+  border: 5px solid #3F8DA7;
+  text-decoration: none;
+}
+.three-col{
+  float:left;
+  width:30%;
+  margin-top:20px;
+  text-align:center;
+}
+.three-col img{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin:20px;
+}
+.three-col p{
+  margin-bottom:15px;
+}
+.three-col h3{
+  font-size:30px;
+  color:blue;
+}
+.three-col a{
+  background: white;
+  border: 5px solid #3F8DA7;
+  text-decoration: none;
+  margin-top:10px;
+}
+footer {
+    background: #3F8DA7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:400px;
+}
+footer li{
+  display:inline-block;
+  margin:30px;
+}
+footer ul li img{
+  width:100px;
+  height:100px;
+}
+footer a{
+  background: white;
+  margin-top:10px;
 }
